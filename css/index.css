@@ -1,0 +1,166 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-size: 100%;
+	background-color: #174793;
+	font-family: 'Playfair Display', serif;
+	color: #174793;
+}
+.container{
+	width: 100%;
+}
+header {
+	width: 100%;
+}
+figure {
+	position: absolute;  
+	width: 40%; 
+	margin: 25px;
+}
+img[src="s/loc.png"] {
+	float: left; 
+	width: 35px; 
+	padding-top: 10px; 
+	padding-right: 10px;
+}
+
+img[src="s/phone.png"] {
+	float: left; 
+	width: 30px; 
+	padding-top: 10px; 
+	padding-left: 3px;
+}
+
+.logo{
+	display: block;
+	margin: auto;
+}
+img[src="s/header.jpg"] {
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+img[src="s/headline.jpg"] {
+	width: 100%;
+	margin-top: 0%;
+	top: 0;
+	left: 0;
+}
+
+img[src="s/logo.png"]{
+	width: 11%;
+	height: 11%;
+	position: relative;
+	padding-top: 0.2%;
+}
+img[src="s/logo.png"]:hover {
+	opacity: 0.8;
+}
+img[src="s/carticon.png"]{
+	width: 5vw;
+	position:absolute;
+	top: 2.5vw;
+	right: 1.6vw;
+	position: fixed;
+}
+img[src="s/carticon.png"]:hover {
+	opacity: 0.8;
+}
+
+.cart {
+	top: 5.5vw;
+	right: 2.2vw;
+	position: fixed;
+	background-color: #ffdf01;
+	color: black;
+}
+h1 {
+	background-color: #fff;
+	color: black;
+	text-align: center;
+	margin-top: 0%;
+	padding: 5px;
+}
+
+.mcontent {
+	margin-top: 1%;
+	margin-bottom: 5%;
+}
+
+p {
+	text-align: justify;
+	margin: auto;
+	text-decoration: none;
+}
+
+.cont1, .cont2 {
+	display: flex;
+	max-width: 1000px;
+	margin-left: auto;
+    margin-right: auto;
+}
+.cont1 p, .cont2 p {
+	text-align: center;
+	margin-top: 6%;
+	text-decoration: none;
+}
+
+.cont2 {
+	max-width: 760px;
+}
+
+.cont1 a, .cont2 a {
+	padding: 2%;
+	width: 100%;
+	color: #fff;
+} 
+
+.cont1 a:hover, .cont2 a:hover {
+	background-color: #ffdf01;
+	color: #000;
+} 
+
+.cont1 img, .cont2 img {
+		width: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+a:hover {
+	color: #000;
+}
+
+.footer  {
+	text-align: center;
+	background-color: #386cb8;
+	padding: 2%;
+	color: white;
+	opacity: 0.8;
+  }
+  .bg-dark {
+	background-color: #386cb8 !important;
+  }
+  .text-white {
+	color: #fff !important;
+  }
+  .position-absolute {
+	position: absolute !important;
+  }
+  .badgec {
+	display: inline-block;
+	padding: 0.35em 0.47em;
+	padding-top: 0.1em;  font-size: 1em;
+	font-weight: 700;
+	line-height: 1;
+	color: #000;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: baseline;
+	border-radius: 1rem;
+  }
